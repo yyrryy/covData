@@ -18,26 +18,36 @@ import plotly.graph_objects as go
 
 
 
-URL = 'http://www.covidmaroc.ma/Pages/AccueilAR.aspx'
+URL1 = 'https://covid.hespress.com/'
+URL2 = 'http://www.covidmaroc.ma/Pages/AccueilAR.aspx'
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36'
 }
-page = requests.get(URL, headers=headers)
+covhes = requests.get(URL1, headers=headers)
+covmin = requests.get(URL2, headers=headers)
 
-soup = bs4.BeautifulSoup(page.content, "html.parser")		
-when = soup.find('td',{'style':'border: 0px solid red; height: 250px; padding-top: 145px; padding-right: 180px; padding-left: 210px;'})
-stats = soup.find_all("td",{'style':'border: 0px solid red; width: 216px; height: 200px;'})
+souprigions = bs4.BeautifulSoup(covhes.content, "html.parser")
+soupstats = bs4.BeautifulSoup(covmin.content, "html.parser")
 
-csv_file = open('covdata.csv','a')
 
-csv_writer = csv.writer(csv_file)
 
- 
-#DATE
-#date = [] date.append(when.p.text.split()[2])
+	
+when = soupstats.find('td',{'style':'border: 0px solid red; height: 250px; padding-top: 145px; padding-right: 180px; padding-left: 210px;'})
+stats = soupstats.find_all("td",{'style':'border: 0px solid red; width: 216px; height: 200px;'})
 
-#TOTAL CONFIRMED
+
+
+covData = open('covdata.csv','a')
+rigionsData = open('rigions.csv', 'a')
+
+
+covwriter = csv.writer(covData)
+rigwriter = csv.writer(rigionsData)
+
+
+
+#CASES
 for i in stats:
 	time = when.p.text.split()[1].strip('u\u200b')
 	date = when.p.text.split()[2]
@@ -46,33 +56,37 @@ for i in stats:
 
 	recovered = stats[0].p.span.text
 
-	deathstats = soup.find('span', {'style':'text-decoration: none solid #b10026;'}).get_text()
+	deathstats = soupstats.find('span', {'style':'text-decoration: none solid #b10026;'}).get_text()
 	death = ''.join(filter(str.isdigit, deathstats))
 
-	active = int(total_effected)-int(recovered)-int(death)
+	effected = int(total_effected)-int(recovered)-int(death)
 
 	negative = stats[2].p.text
 
 	total_tests = int(total_effected) + int(negative)
 
-"""
-#ma5damx ba9i hada
-rig = soup.find_all('h2', {'class':'ms-rteElement-H2B'})
 
+#RIGIONS CASES
+rig = souprigions.find_all('tr')
 for i in rig:
-	bni = rig[1].text
-	casa  = rig[3].text
-	draa = rig[4].text.strip('u\u200b%')
-	dak = rig[6].text.strip('u\u200b%')
-	fas = rig[8].text
-	glmim = rig[10].text.strip('u\u200b%')
-	layon = rig[12].text.strip('u\u200b%')
-	mrrakx = rig[14].text
-	orio = rig[16].text.strip('u\u200b%')
-	rrbat = rig[18].text.strip('u\u200b%')
-	sos = rig[20].text.strip('u\u200b%')
-	tanja = rig[22].text
-"""
-csv_writer.writerow([time, date, active, total_effected, recovered, death, negative, total_tests])
+	bnimlal = rig[4].td.text
+	casa = rig[0].td.text
+	draa = rig[7].td.text
+	da5la = rig[11].td.text
+	fas = rig[1].td.text
+	glmim = rig[6].td.text
+	layon = rig[10].td.text
+	mrakx = rig[3].td.text
+	orio = rig[9].td.text
+	rbat = rig[8].td.text
+	sous = rig[5].td.text
+	tanja = rig[2].td.text
 
-csv_file.close()
+
+#uncomment out these to append data in the CSVs
+#covwriter.writerow([time, date, effected, total_effected, recovered, death, negative, total_tests])
+#covData.close()
+
+#rigwriter.writerow([date, bnimlal, casa, draa, da5la, fas, glmim, layon, mrakx, orio, rbat, sous, tanja])
+#rigionsData.close()
+
