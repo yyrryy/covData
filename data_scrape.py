@@ -18,7 +18,9 @@ import plotly.graph_objects as go
 
 
 
-URL1 = 'https://covid.hespress.com/'
+Today = date.today().strftime('%d-%m-%Y')
+#print(today)
+URL1 = 'https://covid.hespress.com/fr'
 URL2 = 'http://www.covidmaroc.ma/Pages/AccueilAR.aspx'
 
 headers = {
@@ -68,25 +70,51 @@ for i in stats:
 
 #RIGIONS CASES
 rig = souprigions.find_all('tr')
-for i in rig:
-	bnimlal = rig[4].td.text
-	casa = rig[0].td.text
-	draa = rig[7].td.text
-	da5la = rig[11].td.text
-	fas = rig[1].td.text
-	glmim = rig[6].td.text
-	layon = rig[10].td.text
-	mrakx = rig[3].td.text
-	orio = rig[9].td.text
-	rbat = rig[8].td.text
-	sous = rig[5].td.text
-	tanja = rig[2].td.text
+rig_str = []
+for n in rig:
+    rig_str.append(str(n))
+
+Casa = [i for i, s in enumerate(rig_str) if 'Casablanca' in s]
+CasaCases = rig[int(' '.join(str(x) for x in Casa))].td.text
+
+Tanger = [i for i, s in enumerate(rig_str) if 'Tanger' in s]
+TangerCases = rig[int(' '.join(str(x) for x in Tanger))].td.text
+
+Fés = [i for i, s in enumerate(rig_str) if 'Fès' in s]
+FésCases = rig[int(' '.join(str(x) for x in Fés))].td.text
+
+Béni = [i for i, s in enumerate(rig_str) if 'Béni' in s]
+BéniCases = rig[int(''.join(str(x) for x in Béni))].td.text
+
+Marrakech = [i for i, s in enumerate(rig_str) if 'Marrakech' in s]
+MarrakechCases = rig[int(''.join(str(x) for x in Marrakech))].td.text
+
+Souss = [i for i, s in enumerate(rig_str) if 'Souss' in s]
+SoussCases = rig[int(''.join(str(x) for x in Souss))].td.text
+
+Guelmim = [i for i, s in enumerate(rig_str) if 'Guelmim' in s]
+GuelmimCases = rig[int(''.join(str(x) for x in Guelmim))].td.text
+
+Drâa = [i for i, s in enumerate(rig_str) if 'Drâa' in s]
+DrâaCases = rig[int(''.join(str(i) for i in Drâa))].td.text
+
+Rabat = [i for i, s in enumerate(rig_str) if 'Rabat' in s]
+RabatCases = rig[int(''.join(str(i) for i in Rabat))].td.text
+
+Oriental = [i for i, s in enumerate(rig_str) if 'Oriental' in s]
+OrientalCases = rig[int(''.join(str(i) for i in Oriental))].td.text
+
+Laâyoune = [i for i, s in enumerate(rig_str) if 'Laâyoune' in s]
+LaâyouneCases = rig[int(''.join(str(i) for i in Laâyoune))].td.text
+
+Dakhla = [i for i, s in enumerate(rig_str) if 'Dakhla' in s]
+DakhlaCases = rig[int(''.join(str(i) for i in Dakhla))].td.text
 
 
 #uncomment out these to append data in the CSVs
 #covwriter.writerow([time, date, effected, total_effected, recovered, death, negative, total_tests])
 #covData.close()
 
-#rigwriter.writerow([date, bnimlal, casa, draa, da5la, fas, glmim, layon, mrakx, orio, rbat, sous, tanja])
+#rigwriter.writerow([Today, BéniCases, CasaCases, DrâaCases, DakhlaCases, FésCases, GuelmimCases, LaâyouneCases, MarrakechCases, OrientalCases, RabatCases, SoussCases, TangerCases])
 #rigionsData.close()
 
