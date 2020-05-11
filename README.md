@@ -2,5 +2,6 @@
 
 <h2>Upcoming:</h2>
 
-visualisation.py
-automate the scraper then build an app with the stats
+visualisation.py<br>
+automate the scraper <br>
+then build an app with the stats
