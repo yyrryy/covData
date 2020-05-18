@@ -1,0 +1,682 @@
+{
+    "02-03-2020": {
+        " time": "0",
+        "date": "02-03-2020",
+        "active": "0",
+        "total_effected": "1",
+        "recovered": "0",
+        "death": "0",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "05-03-2020": {
+        " time": "0",
+        "date": "05-03-2020",
+        "active": "0",
+        "total_effected": "2",
+        "recovered": "0",
+        "death": "0",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "10-03-2020": {
+        " time": "0",
+        "date": "10-03-2020",
+        "active": "1",
+        "total_effected": "2",
+        "recovered": "0",
+        "death": "1",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "11-03-2020": {
+        " time": "0",
+        "date": "11-03-2020",
+        "active": "5",
+        "total_effected": "6",
+        "recovered": "0",
+        "death": "1",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "13-03-2020": {
+        " time": "0",
+        "date": "13-03-2020",
+        "active": "6",
+        "total_effected": "8",
+        "recovered": "1",
+        "death": "1",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "14-03-2020": {
+        " time": "0",
+        "date": "14-03-2020",
+        "active": "16",
+        "total_effected": "18",
+        "recovered": "1",
+        "death": "1",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "15-03-2020": {
+        " time": "0",
+        "date": "15-03-2020",
+        "active": "27",
+        "total_effected": "29",
+        "recovered": "1",
+        "death": "1",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "16-03-2020": {
+        " time": "0",
+        "date": "16-03-2020",
+        "active": "35",
+        "total_effected": "38",
+        "recovered": "1",
+        "death": "2",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "17-03-2020": {
+        " time": "0",
+        "date": "17-03-2020",
+        "active": "41",
+        "total_effected": "44",
+        "recovered": "1",
+        "death": "2",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "18-03-2020": {
+        " time": "0",
+        "date": "18-03-2020",
+        "active": "51",
+        "total_effected": "54",
+        "recovered": "1",
+        "death": "2",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "19-03-2020": {
+        " time": "0",
+        "date": "19-03-2020",
+        "active": "59",
+        "total_effected": "63",
+        "recovered": "2",
+        "death": "2",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "20-03-2020": {
+        " time": "0",
+        "date": "20-03-2020",
+        "active": "74",
+        "total_effected": "79",
+        "recovered": "2",
+        "death": "3",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "21-03-2020": {
+        " time": "0",
+        "date": "21-03-2020",
+        "active": "93",
+        "total_effected": "96",
+        "recovered": "3",
+        "death": "3",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "22-03-2020": {
+        " time": "0",
+        "date": "22-03-2020",
+        "active": "108",
+        "total_effected": "115",
+        "recovered": "3",
+        "death": "4",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "23-03-2020": {
+        " time": "0",
+        "date": "23-03-2020",
+        "active": "134",
+        "total_effected": "143",
+        "recovered": "5",
+        "death": "4",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "24-03-2020": {
+        " time": "0",
+        "date": "24-03-2020",
+        "active": "159",
+        "total_effected": "170",
+        "recovered": "6",
+        "death": "5",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "25-03-2020": {
+        " time": "0",
+        "date": "25-03-2020",
+        "active": "212",
+        "total_effected": "225",
+        "recovered": "7",
+        "death": "6",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "26-03-2020": {
+        " time": "0",
+        "date": "26-03-2020",
+        "active": "257",
+        "total_effected": "275",
+        "recovered": "8",
+        "death": "10",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "27-03-2020": {
+        " time": "0",
+        "date": "27-03-2020",
+        "active": "311",
+        "total_effected": "345",
+        "recovered": "11",
+        "death": "23",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "28-03-2020": {
+        " time": "0",
+        "date": "28-03-2020",
+        "active": "365",
+        "total_effected": "402",
+        "recovered": "12",
+        "death": "25",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "29-03-2020": {
+        " time": "0",
+        "date": "29-03-2020",
+        "active": "440",
+        "total_effected": "479",
+        "recovered": "13",
+        "death": "26",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "30-03-2020": {
+        " time": "0",
+        "date": "30-03-2020",
+        "active": "508",
+        "total_effected": "556",
+        "recovered": "15",
+        "death": "33",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "31-03-2020": {
+        " time": "0",
+        "date": "31-03-2020",
+        "active": "557",
+        "total_effected": "617",
+        "recovered": "24",
+        "death": "36",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "01-04-2020": {
+        " time": "0",
+        "date": "01-04-2020",
+        "active": "586",
+        "total_effected": "654",
+        "recovered": "29",
+        "death": "39",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "02-04-2020": {
+        " time": "0",
+        "date": "02-04-2020",
+        "active": "633",
+        "total_effected": "708",
+        "recovered": "31",
+        "death": "44",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "03-04-2020": {
+        " time": "0",
+        "date": "03-04-2020",
+        "active": "686",
+        "total_effected": "791",
+        "recovered": "57",
+        "death": "48",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "04-04-2020": {
+        " time": "0",
+        "date": "04-04-2020",
+        "active": "794",
+        "total_effected": "919",
+        "recovered": "66",
+        "death": "59",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "05-04-2020": {
+        " time": "0",
+        "date": "05-04-2020",
+        "active": "875",
+        "total_effected": "1021",
+        "recovered": "76",
+        "death": "70",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "06-04-2020": {
+        " time": "0",
+        "date": "06-04-2020",
+        "active": "959",
+        "total_effected": "1120",
+        "recovered": "81",
+        "death": "80",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "07-04-2020": {
+        " time": "0",
+        "date": "07-04-2020",
+        "active": "1001",
+        "total_effected": "1184",
+        "recovered": "93",
+        "death": "90",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "08-04-2020": {
+        " time": "0",
+        "date": "08-04-2020",
+        "active": "1085",
+        "total_effected": "1275",
+        "recovered": "97",
+        "death": "93",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "09-04-2020": {
+        " time": "0",
+        "date": "09-04-2020",
+        "active": "1168",
+        "total_effected": "1374",
+        "recovered": "109",
+        "death": "97",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "10-04-2020": {
+        " time": "0",
+        "date": "10-04-2020",
+        "active": "1219",
+        "total_effected": "1448",
+        "recovered": "122",
+        "death": "107",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "11-04-2020": {
+        " time": "0",
+        "date": "11-04-2020",
+        "active": "1289",
+        "total_effected": "1545",
+        "recovered": "145",
+        "death": "111",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "12-04-2020": {
+        " time": "0",
+        "date": "12-04-2020",
+        "active": "1366",
+        "total_effected": "1661",
+        "recovered": "177",
+        "death": "118",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "13-04-2020": {
+        " time": "0",
+        "date": "13-04-2020",
+        "active": "1434",
+        "total_effected": "1763",
+        "recovered": "203",
+        "death": "126",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "14-04-2020": {
+        " time": "0",
+        "date": "14-04-2020",
+        "active": "1545",
+        "total_effected": "1888",
+        "recovered": "217",
+        "death": "126",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "15-04-2020": {
+        " time": "0",
+        "date": "15-04-2020",
+        "active": "1670",
+        "total_effected": "2024",
+        "recovered": "229",
+        "death": "127",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "16-04-2020": {
+        " time": "0",
+        "date": "16-04-2020",
+        "active": "1904",
+        "total_effected": "2283",
+        "recovered": "249",
+        "death": "130",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "17-04-2020": {
+        " time": "0",
+        "date": "17-04-2020",
+        "active": "2148",
+        "total_effected": "2564",
+        "recovered": "281",
+        "death": "135",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "18-04-2020": {
+        " time": "0",
+        "date": "18-04-2020",
+        "active": "2232",
+        "total_effected": "2685",
+        "recovered": "314",
+        "death": "137",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "19-04-2020": {
+        " time": "0",
+        "date": "19-04-2020",
+        "active": "2367",
+        "total_effected": "2855",
+        "recovered": "327",
+        "death": "141",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "20-04-2020": {
+        " time": "0",
+        "date": "20-04-2020",
+        "active": "2553",
+        "total_effected": "3046",
+        "recovered": "350",
+        "death": "143",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "21-04-2020": {
+        " time": "0",
+        "date": "21-04-2020",
+        "active": "2671",
+        "total_effected": "3209",
+        "recovered": "393",
+        "death": "145",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "22-04-2020": {
+        " time": "0",
+        "date": "22-04-2020",
+        "active": "2880",
+        "total_effected": "3446",
+        "recovered": "417",
+        "death": "149",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "23-04-2020": {
+        " time": "0",
+        "date": "23-04-2020",
+        "active": "2957",
+        "total_effected": "3568",
+        "recovered": "456",
+        "death": "155",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "24-04-2020": {
+        " time": "0",
+        "date": "24-04-2020",
+        "active": "3114",
+        "total_effected": "3758",
+        "recovered": "486",
+        "death": "158",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "25-04-2020": {
+        " time": "0",
+        "date": "25-04-2020",
+        "active": "3201",
+        "total_effected": "3897",
+        "recovered": "537",
+        "death": "159",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "26-04-2020": {
+        " time": "0",
+        "date": "26-04-2020",
+        "active": "3311",
+        "total_effected": "4065",
+        "recovered": "593",
+        "death": "161",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "27-04-2020": {
+        " time": "0",
+        "date": "27-04-2020",
+        "active": "3263",
+        "total_effected": "4120",
+        "recovered": "695",
+        "death": "162",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "28-04-2020": {
+        " time": "0",
+        "date": "28-04-2020",
+        "active": "3309",
+        "total_effected": "4252",
+        "recovered": "778",
+        "death": "165",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "29-04-2020": {
+        " time": "0",
+        "date": "29-04-2020",
+        "active": "3193",
+        "total_effected": "4289",
+        "recovered": "928",
+        "death": "168",
+        "negative": "0",
+        "total_tests": "0"
+    },
+    "30-04-2020": {
+        " time": "16H00",
+        "date": "30-04-2020",
+        "active": "3269",
+        "total_effected": "4423",
+        "recovered": "984",
+        "death": "170",
+        "negative": "30418",
+        "total_tests": "34841"
+    },
+    "01-05-2020": {
+        " time": "16H00",
+        "date": "01-05-2020",
+        "active": "3315",
+        "total_effected": "4569",
+        "recovered": "1083",
+        "death": "171",
+        "negative": "32437",
+        "total_tests": "37006"
+    },
+    "02-05-2020": {
+        " time": "16H00",
+        "date": "02-05-2020",
+        "active": "3300",
+        "total_effected": "4729",
+        "recovered": "1256",
+        "death": "173",
+        "negative": "34638",
+        "total_tests": "39367"
+    },
+    "03-05-2020": {
+        " time": "16H00",
+        "date": "03-05-2020",
+        "active": "3291",
+        "total_effected": "4903",
+        "recovered": "1438",
+        "death": "174",
+        "negative": "37209",
+        "total_tests": "42112"
+    },
+    "04-05-2020": {
+        " time": "16H00",
+        "date": "04-05-2020",
+        "active": "3221",
+        "total_effected": "5053",
+        "recovered": "1653",
+        "death": "179",
+        "negative": "40249",
+        "total_tests": "45302"
+    },
+    "05-05-2020": {
+        " time": "16H00",
+        "date": "05-05-2020",
+        "active": "3200",
+        "total_effected": "5219",
+        "recovered": "1838",
+        "death": "181",
+        "negative": "44351",
+        "total_tests": "49570"
+    },
+    "06-05-2020": {
+        " time": "16H00",
+        "date": "06-05-2020",
+        "active": "3208",
+        "total_effected": "5408",
+        "recovered": "2017",
+        "death": "183",
+        "negative": "47550",
+        "total_tests": "52958"
+    },
+    "07-05-2020": {
+        " time": "16H00",
+        "date": "07-05-2020",
+        "active": "3186",
+        "total_effected": "5548",
+        "recovered": "2179",
+        "death": "183",
+        "negative": "50944",
+        "total_tests": "56492"
+    },
+    "08-05-2020": {
+        " time": "16H00",
+        "date": "08-05-2020",
+        "active": "3201",
+        "total_effected": "5711",
+        "recovered": "2324",
+        "death": "186",
+        "negative": "54160",
+        "total_tests": "59871"
+    },
+    "09-05-2020": {
+        " time": "16H00",
+        "date": "09-05-2020",
+        "active": "3263",
+        "total_effected": "5910",
+        "recovered": "2461",
+        "death": "186",
+        "negative": "57149",
+        "total_tests": "63059"
+    },
+    "10-05-2020": {
+        " time": "16H00",
+        "date": "10-05-2020",
+        "active": "3321",
+        "total_effected": "6063",
+        "recovered": "2554",
+        "death": "188",
+        "negative": "59861",
+        "total_tests": "65924"
+    },
+    "11-05-2020": {
+        " time": "16H00",
+        "date": "11-05-2020",
+        "active": "3282",
+        "total_effected": "6281",
+        "recovered": "2811",
+        "death": "188",
+        "negative": "62699",
+        "total_tests": "68980"
+    },
+    "15-05-2020": {
+        " time": "16H00",
+        "date": "15-05-2020",
+        "active": "3062",
+        "total_effected": "6652",
+        "recovered": "3400",
+        "death": "190",
+        "negative": "74964",
+        "total_tests": "81616"
+    },
+    "16-05-2020": {
+        " time": "16H00",
+        "date": "16-05-2020",
+        "active": "3062",
+        "total_effected": "6741",
+        "recovered": "3487",
+        "death": "192",
+        "negative": "78263",
+        "total_tests": "85004"
+    },
+    "17-05-2020": {
+        " time": "16H00",
+        "date": "17-05-2020",
+        "active": "3018",
+        "total_effected": "6870",
+        "recovered": "3660",
+        "death": "192",
+        "negative": "83087",
+        "total_tests": "89957"
+    },
+    "18-05-2020": {
+        " time": "16H00",
+        "date": "18-05-2020",
+        "active": "3002",
+        "total_effected": "6952",
+        "recovered": "3758",
+        "death": "192",
+        "negative": "88584",
+        "total_tests": "95536"
+    }
+}
