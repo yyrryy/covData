@@ -678,5 +678,25 @@
         "death": "192",
         "negative": "88584",
         "total_tests": "95536"
+    },
+    "19-05-2020": {
+        " time": "16H00",
+        "date": "19-05-2020",
+        "active": "2929",
+        "total_effected": "7023",
+        "recovered": "3901",
+        "death": "193",
+        "negative": "93344",
+        "total_tests": "100367"
+    },
+    "20-05-2020": {
+        " time": "16H00",
+        "date": "20-05-2020",
+        "active": "2841",
+        "total_effected": "7133",
+        "recovered": "4098",
+        "death": "194",
+        "negative": "98871",
+        "total_tests": "106004"
     }
 }
