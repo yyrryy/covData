@@ -1,4 +1,4 @@
- time,date,active,total_effected,recovered,death,negative,total_tests
+ time,date,active,total_effected,recoveries,death,negative,total_tests
 
 0,02-03-2020,0,1,0,0,0,0
 0,05-03-2020,0,2,0,0,0,0
